@@ -1,0 +1,12 @@
+.body__index {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.header {
+  grid-columns: 1/12;
+  background-color: blueviolet;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+.body__index{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+
+$brand-color: blueviolet;
+$dark-color: black;
+$light-color: white;  
+
+.header {
+    grid-columns: 1 / 12;
+    background-color: $brand-color;
+    color: $light-color;
+}
+
+.logo {}
+
+.nav {}
+
+.section {
+    &__introduccion {
+        &--img {}
+    }
+
+    &__introduccion-article {}
+
+    &__titulos {}
+}
+
+.main {
+    &__inicio {}
+}
+
+
+.footer {
+    &__inicio {}
+}
+
